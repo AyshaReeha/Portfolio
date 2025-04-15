@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .projects-section {
   padding: 40px;
   background-color:  #000000;
@@ -66,4 +67,74 @@
   .projects-section h2{
     font-size: 50px;
   }
+=======
+.projects-section {
+  padding: 40px;
+  background-color:  #000000;
+  color: white;
+  text-align: center;
+}
+.projects-section h2{
+  font-size: 60px;
+  margin-bottom: 40px;
+}
+.project-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.card :hover{
+  transform: scale(1.05);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+.card {
+  background-color: #fdfdff;
+  border-radius: 10px;
+  width: 300px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  text-align: left;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.card h3 {
+  margin: 15px 0 10px;
+  color: #161513;
+}
+
+.card p {
+  font-size: 14px;
+  color: #838080;
+}
+
+.buttons {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons a {
+  text-decoration: none;
+  color: white;
+  
+  background: linear-gradient(270deg,#DF8908 10%,#B415FF 100%);
+  padding: 8px 12px;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+.buttons a:hover {
+  background-color: #55557a;
+}
+@media(max-width:768px){
+  .projects-section h2{
+    font-size: 50px;
+  }
+>>>>>>> fd4fc0243ba44a8f1697e5926a4b405ca6c510fb
 }
