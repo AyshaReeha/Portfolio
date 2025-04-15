@@ -6,6 +6,8 @@ import Skills from './Components/Skills/Skills'
 
 import Project from './Components/Project/Project'
 import Contact from './Components/contact/contact'
+
+
 const App = () => {
       return(
           <div>
