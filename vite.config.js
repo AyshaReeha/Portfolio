@@ -6,6 +6,6 @@ const repoName = 'Portfolio'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/Portfolio/', // if your repo is named "Portfolio"
+  base: './', // if your repo is named "Portfolio"
 
 })
