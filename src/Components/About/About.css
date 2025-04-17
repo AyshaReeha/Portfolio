@@ -127,30 +127,44 @@
     color: #333;
     margin: 4px 0;
   }
-  @media(max-width:768px){
-    .about{
-        gap:80px;
-        margin:50px 70px;
-        
+  @media (max-width: 768px) {
+    .about {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+      margin: 30px 20px;
     }
-    .about-title h1{
-        font-size: 50px;
-        padding:0;
+  
+    .about-title h1 {
+      font-size: 40px;
+      text-align: center;
+      padding: 0;
+      padding-bottom: 0px;
     }
-    .about-left img{
-        padding: 10px;
-        width: 330px;
-        right: -10px;
+  
+    .about-left img {
+      width: 250px;
+      max-width: 100%;
+      height: auto;
+      object-fit: cover;
+     
+      display: none;
     }
+  
+  
     .about-sections{
+    
         flex-direction: column;
     }
     .about-para{
+      
         font-size: 18px;
-        line-height: 32px;
+        line-height: 30px;
+        padding-left: 20px;
     }
     .about-education h2{
-        font-size: 50px;
+        font-size: 40px;
         
         padding:0;
     }

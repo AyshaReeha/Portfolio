@@ -103,6 +103,7 @@
     .hero img{
         margin-top: 128px;
         width:260px;
+        align-items: center;
 
     }
     .hero h1{
